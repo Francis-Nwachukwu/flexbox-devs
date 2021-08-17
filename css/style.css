@@ -1,0 +1,191 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background:#eee;
+}
+
+/* Common Classes */
+
+.primary-text {
+    color: teal;
+}
+
+.secondary-text {
+    color: rgb(0, 48, 48, 134);
+}
+
+.container {
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+/* Header */
+
+#main-header {
+    border-bottom: 1px solid teal;
+}
+
+/* Navbar */
+
+#navbar {
+    text-transform: uppercase;
+}
+
+#navbar li {
+    list-style:none;
+    display:inline;
+    padding-right:10px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: teal;
+}
+#navbar li.current a, #navbar a:hover{
+    color:teal;
+    border-bottom:3px teal solid;
+    padding-top:3px;
+    transition:.2s;
+}
+/* showcase */
+#showcase{
+    background: url("../images/img5.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-bottom:1px solid teal;
+    margin-bottom:30px;
+}
+#showcase .row {
+    height:300px;
+}
+#showcase h3 {
+    font-size:30px;
+    margin:0;
+    padding-bottom:20px;
+    color: #ccc;
+}
+#showcase p{
+    color:white;
+    margin:0;
+}
+#showcase .showcase-content{
+    background: rgba(0,0,0,0.8);
+    color:white;
+    border-radius:10px;
+    padding:10px;
+    box-shadow: 2px 2px;
+}
+#features h3{
+    background: teal;
+    font-size:30px;
+    padding:10px;
+    color:white;
+}
+#features p{
+    margin:0;
+    color:rgb(56, 54, 54);
+}
+#features .fa{
+    font-size:50px;
+    color:teal;
+}
+#info{
+    background:rgba(0,0,0,0.4);
+    color:white;
+    opacity:0.8;
+}
+#info h2{
+    font-size:25px;
+    margin:0;
+    padding:4px;
+}
+#info ul {
+    list-style: none;
+    padding:0;
+}
+#info li {
+    line-height: 1.5rem;
+    font-size:18px;
+}
+#company {
+    background: teal;
+    color:white;
+    padding:7px 0;
+} 
+#company h4{
+    text-transform: uppercase;
+    margin-bottom:0;
+}
+#company ul{
+    list-style:none;
+    padding:0;
+    line-height:1.5rem;
+}
+#company input[type="email"]{
+    padding:7px;
+}
+#company button{
+    background:#222;
+    color:white;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+}
+#company button[type="submit"]:hover{
+    background: transparent;
+    transition: 3s;
+}
+#main-footer{
+    background: teal;
+    color:white;
+}
+.services ul li{
+    list-style: none;
+    padding:10px;
+}
+.services ul li:nth-child(odd){
+    background: rgb(105, 98, 98);
+    color:white;
+}
+.services ul li:nth-child(even){
+    background: rgb(36, 32, 32);
+    color:white;
+}
+.contact form{
+    background: teal;
+    color:white;
+    margin-bottom: 30px;
+}
+.contact form input[type="text"],
+.contact form input[type="email"]{
+    width: 50%;
+    height:30px;
+    margin-bottom:10px;
+}
+.contact form textarea{
+    width:50%;
+    height:100px;
+}
+.contact form button {
+    width:50%;
+    margin-top: 5px;
+    padding:10px 0;
+    border:none;
+    border-radius:5px;
+    background:#222;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+.container h2{
+    background:teal;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
